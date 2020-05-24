@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "A PROPOS DU GLOCAUME"; ObjectID = "0mn-nc-yDi"; */
+"0mn-nc-yDi.text" = "ABOUT GLOCAUME";
+
+/* Class = "UILabel"; text = "GALERIE"; ObjectID = "8ax-Tn-9NZ"; */
+"8ax-Tn-9NZ.text" = "GALERIE";
+
+/* Class = "UITextField"; text = "START TUTORIEL"; ObjectID = "9ko-Qh-jb2"; */
+"9ko-Qh-jb2.text" = "START TUTORIEL";
+
+/* Class = "UIButton"; normalTitle = "Retour"; ObjectID = "IRa-aw-Xk2"; */
+"IRa-aw-Xk2.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "A PROPOS DE NOTRE  APPLICATION"; ObjectID = "L2E-yf-6LY"; */
+"L2E-yf-6LY.text" = "ABOUT OUR APP";
+
+/* Class = "UILabel"; text = "DIAGNOSTIC RAPIDE"; ObjectID = "Qro-Zz-MV9"; */
+"Qro-Zz-MV9.text" = "QUICK DIAGNOSIS";
+
+/* Class = "UILabel"; text = "Une solution simple et efficace pour dépister le glocaume"; ObjectID = "RT7-Lj-s0j"; */
+"RT7-Lj-s0j.text" = "A simple and effective solution to detect the glocaume";
+
+/* Class = "UIButton"; normalTitle = "Retour"; ObjectID = "bcC-Ww-S5t"; */
+"bcC-Ww-S5t.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fgI-Aw-5Nm"; */
+"fgI-Aw-5Nm.normalTitle" = "Button";
+
+/* Class = "UITextField"; text = "START"; ObjectID = "gN9-yC-eoy"; */
+"gN9-yC-eoy.text" = "START";
+
+/* Class = "UILabel"; text = "APPAREIL PHOTO"; ObjectID = "hP7-Kk-3n3"; */
+"hP7-Kk-3n3.text" = "CAMERA";

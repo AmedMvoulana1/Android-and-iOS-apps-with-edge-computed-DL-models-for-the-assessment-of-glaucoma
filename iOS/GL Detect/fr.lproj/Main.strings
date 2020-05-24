@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "ABOUT GLAUCOME"; ObjectID = "0mn-nc-yDi"; */
+"0mn-nc-yDi.text" = "A PROPOS DU GLAUCOME";
+
+/* Class = "UILabel"; text = "GALERIE"; ObjectID = "8ax-Tn-9NZ"; */
+"8ax-Tn-9NZ.text" = "GALERIE";
+
+/* Class = "UITextField"; text = "START TUTORIEL"; ObjectID = "9ko-Qh-jb2"; */
+"9ko-Qh-jb2.text" = "COMMENCER TUTORIEL";
+
+/* Class = "UILabel"; text = "ABOUT OUR APPLICATION"; ObjectID = "L2E-yf-6LY"; */
+"L2E-yf-6LY.text" = "A PROPOS DE NOTRE APPLICATION";
+
+/* Class = "UITextView"; text = "GL Detect is a mobile application that runs on both IOS and Android systems.\nIt has an intuitive interface which makes it easier to use.\nThe home page allows; especially with the \"About\" buttons to discover Glaucoma disease as well as our application and the intelligence behind it.\nThen we can start a diagnosis by taking a photo of the retina (By coupling the camera of the phone with the ophthalmoscope), or by choosing an existing photo in the gallery, then the application tells us the result of its diagnosis \"Patient reached glaucoma or not. \""; ObjectID = "N0U-o0-NSK"; */
+"N0U-o0-NSK.text" = "GL Detect est une application mobile qui tourne sur les deux systèmes IOS et Android. Elle a une interface intuitive qui permet de faciliter son utilisation. La page d’accueil permet ; notamment avec les boutons à propos » de découvrir la maladie du Glaucome ainsi que notre application et l’intelligence qui tourne derrière. Ensuite on peut lancer un diagnostic en prenant une photo de la rétine (En couplant la caméra du téléphone avec l’ophtalmoscope), ou en choisissant une photo existante dans la galerie, puis l’application nous dit le résultat de son diagnostic « Patient atteint de glaucome ou pas »."";
+
+/* Class = "UITextView"; text = "Le glaucome est une maladie oculaire qui provoque une diminution irrémédiable du champ de vision. Elle résulte de la destruction progressive des fibres optiques suite à l’élévation de la pression à l’intérieur de l'œil (pression intraoculaire). Elle représente la deuxième cause de cécité dans le monde, d’ailleurs une personne qui en souffre peut devenir aveugle si elle ne reçoit aucun traitement. D’où l’importance de la dépister aussitôt que possible pour la traiter."; ObjectID = "PjP-ry-EwZ"; */
+"PjP-ry-EwZ.text" = "Le glaucome est une maladie oculaire qui provoque une diminution irrémédiable du champ de vision. Elle résulte de la destruction progressive des fibres optiques suite à l’élévation de la pression à l’intérieur de l'œil (pression intraoculaire). Elle représente la deuxième cause de cécité dans le monde, d’ailleurs une personne qui en souffre peut devenir aveugle si elle ne reçoit aucun traitement. D’où l’importance de la dépister aussitôt que possible pour la traiter.";
+
+/* Class = "UILabel"; text = "QUICK DIAGNOSIS"; ObjectID = "Qro-Zz-MV9"; */
+"Qro-Zz-MV9.text" = "DIAGNOSTIC RAPIDE";
+
+/* Class = "UILabel"; text = "A simple and effective solution to detect the glaucome"; ObjectID = "RT7-Lj-s0j"; */
+"RT7-Lj-s0j.text" = "Une solution simple pour detecter le glaucome";
+
+/* Class = "UIButton"; normalTitle = "BACK"; ObjectID = "bcC-Ww-S5t"; */
+"bcC-Ww-S5t.normalTitle" = "Retour";
+
+/* Class = "UITextField"; text = "START"; ObjectID = "gN9-yC-eoy"; */
+"gN9-yC-eoy.text" = "Commencer";
+
+/* Class = "UILabel"; text = "CAMERA"; ObjectID = "hP7-Kk-3n3"; */
+"hP7-Kk-3n3.text" = "APPAREIL PHOTO";
