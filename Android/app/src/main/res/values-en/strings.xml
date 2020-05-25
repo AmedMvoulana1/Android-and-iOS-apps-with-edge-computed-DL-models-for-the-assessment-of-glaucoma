@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GL Detect</string>
+    <string name="textAccueil1">A smart, simple and efficient solution for detecting Glaucoma</string>
+    <string name="textAccueil2">RAPID DIAGNOSIS</string>
+    <string name="btCommencer">START</string>
+    <string name="btAproposGL">ABOUT GLAUCOMA</string>
+    <string name="btAproposApp">ABOUT OUR APPLICATION</string>
+    <string name="btTuto">TUTORIAL</string>
+    <string name="appPhoto">CAMERA</string>
+    <string name="galerie">GALERY</string>
+    <string name="français">French</string>
+    <string name="anglais">English</string>
+    <string name="warningTitle">Warning</string>
+    <string name="warning">GL Detect need this access to continue.</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
+    <string name="denied">The permission was denied"</string>
+    <string name="patientMalade">The patient has Glaucoma</string>
+    <string name="patientNormal">The patient does not have Glaucoma</string>
+    <string name="btClassify">Launch diagnosis</string>
+    <string name="resultat">Result</string>
+    <string name="confidence">Confidence</string>
+
+    <string name="txtAproposApp">GL Detect is a mobile app that runs on both IOS and Android systems.
+It has an intuitive interface that makes it easy to use.
+The home page allows you to discover Glaucoma disease, our application and the intelligence behind it.
+Then we can run a diagnosis by taking a picture of the retina (by pairing the camera of the phone with the ophthalmoscope), or by choosing an existing photo in the gallery, then the application tells us the result of its diagnosis «Patient with glaucoma or not».
+</string>
+    <string name="txtAproposIA">This is possible thanks to the Deep Learning model on which the application is based. This algorithm takes a dataset and predicts the output. In our case, we used a dataset containing 101 images collected and annotated by experts from the Aravid hospital in India. Then we made an data augmentation (transformations on the basic images: rotations, blurring, etc.) to obtain a larger dataset (thousands of images) to make an efficient training. To do so, we have divided the dataset into two datasets: one for training and the other for test. With the images of training dataset the model learns :it takes each image, it tries to predict the result and then compares it to the real result, if it is not the same it adjusts its calculations and so on until it does not make any errors. Then it uses the dataset “test” to validate the model.
+Finally, when we had a good model ready to be used, we used tools to compress it (tensorflow lite and Core ml) in order to load it in a mobile phone and finally use it to detect glaucoma in our application.
+</string>
+    <string name="aproposia">About  the AI : </string>
+    <string name="launchdiangnostic">Launch the diagnosis </string>
+    <string name="txtAproposGL">Glaucoma is an optical disease that causes an irremediable reduction in the field of vision. It results from the progressive destruction of optical fibres caused by the increase of pressure inside the eye (intraocular pressure).It is the second cause of blindness in the world. A person who suffers from glaucoma can become blind if they do not receive treatment. Therefore, it is very important to detect it at time to treat it.</string>
+</resources>

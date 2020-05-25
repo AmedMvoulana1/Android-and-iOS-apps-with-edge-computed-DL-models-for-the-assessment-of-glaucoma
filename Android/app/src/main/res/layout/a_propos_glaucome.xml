@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.5"
+            android:src="@drawable/retina">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3">
+            <TextView
+                android:id="@+id/tv_aProposGL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/txtAproposGL"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="#4E2A16"
+                android:textSize="20dp"></TextView>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.6"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/home_icn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="160dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1.7"
+            android:src="@drawable/home_icn2">
+
+        </ImageView>
+
+
+        <ImageView
+            android:id="@+id/selected_pic_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="60dp"
+            android:layout_weight="0.3"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:background="@android:drawable/picture_frame">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:rowCount="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:layout_weight="1.35"
+            android:background="@drawable/radius"
+            android:backgroundTint="#E7A07C"
+            android:text="blabla"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="30dp"
+            android:layout_weight="1.35"
+            android:background="@drawable/radius"
+            android:backgroundTint="#E7A07C"
+            android:text="blabla"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"></Button>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">GL Detect</string>
+    <string name="textAccueil1">Une solution simple et efficace  pour dépister le glaucome</string>
+    <string name="textAccueil2">DIAGNOSTIC RAPIDE</string>
+    <string name="btCommencer">COMMENCER</string>
+    <string name="btAproposGL">A PROPOS DU GLAUCOME</string>
+    <string name="btAproposApp">A PROPOS DE NOTRE APPLICATION</string>
+    <string name="btTuto">TUTORIEL</string>
+    <string name="appPhoto">APPAREIL PHOTO</string>
+    <string name="galerie">GALERIE</string>
+    <string name="français">Français</string>
+    <string name="anglais">Anglais</string>
+    <string name="warningTitle">Avertissement</string>
+    <string name="warning">GL Detect a besoin de cet accès pour continuer.</string>
+    <string name="cancel">ANNULER</string>
+    <string name="ok">D\'ACCORD</string>
+    <string name="resultat">Résultat</string>
+    <string name="confidence">Confidence</string>
+    <string name="denied">"La permission a été refusée"</string>
+    <string name="patientMalade">Le patient est atteint par le glaucome</string>
+    <string name="patientNormal">Le patient n\'est pas atteint par le glaucome</string>
+    <string name="btClassify">Lancer le diagnostic</string>
+
+    <string name="txtAproposGL">Le glaucome est une maladie oculaire qui provoque une diminution irrémédiable du champ de vision. Elle résulte de la destruction progressive des fibres optiques suite à l\’élévation de la pression à l’intérieur de l\'œil (pression intraoculaire). Elle représente la deuxième cause de cécité dans le monde, d\’ailleurs une personne qui en souffre peut devenir aveugle si elle ne reçoit aucun traitement. D\’où l\’importance de la dépister aussitôt que possible pour la traiter.</string>
+    <string name="txtAproposApp">GL Detect est une application mobile qui tourne sur les deux systèmes IOS et Android.
+Elle a une interface intuitive qui permet de faciliter son utilisation.
+La page d’accueil permet ; notamment avec les boutons à propos » de découvrir la maladie du Glaucome ainsi que notre application et l’intelligence qui tourne derrière.
+Ensuite on peut lancer un diagnostic en prenant une photo de la rétine (En couplant la caméra du téléphone avec l’ophtalmoscope), ou en choisissant une photo existante dans la galerie, puis l’application nous dit le résultat de son diagnostic « Patient atteint de glaucome ou pas ».
+</string>
+    <string name="txtAproposIA">En effet ceci est possible grâce au modèle Deep Learning sur lequel repose l’application. Cet algorithme prend en entrée un dataset et prédit la sortie. Dans notre cas, on a utilisé un dataset contenant 101 images collectées et annotées par des experts de l’hôpital Aravid en Inde. Ensuite on a fait une data augmentation (des transformations sur les images de base : rotations, flouter …) pour obtenir un nombre d’images plus grand (des milliers d’images) permettant de bien entrainer le modèle IA. Pour cela on a divisé le dataset en deux : train et test. Avec les images de train le modèle apprend : il prend chaque image, il essaie de prédire le résultat puis compare ce dernier au vrai résultat, si ce n’est pas le même il ajuste ses calculs ainsi de suite jusqu’à ce qu’il ne fasse pas d’erreurs de prédiction. Puis il utilise le dataset « test » pour valider le modèle.
+Enfin quand on a eu un bon modèle prêt à être utiliser, on a fait appel à des outils permettant de l’alléger (tensorflow lite et Core ml), pour le charger dans un téléphone portable et enfin l’utiliser dans l’application mobile pour détecter le glaucome.
+</string>
+    <string name="aproposia">à propos de l\'IA : </string>
+    <string name="launchdiangnostic">Lancer le diagnostic </string>
+</resources>

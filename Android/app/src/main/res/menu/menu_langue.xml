@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/icone"
+        android:title="@string/français"
+        android:icon="@drawable/ic_language_icon"
+        app:showAsAction="ifRoom">
+    </item>
+    <item android:id="@+id/français"
+        android:title="@string/français"
+        app:showAsAction="never">
+    </item>
+    <item android:id="@+id/anglais"
+        android:title="@string/anglais"
+        app:showAsAction="never">
+    </item>
+
+</menu>
